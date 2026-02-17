@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=
+    .0">
+    <title>چلوکبابی گل سرخ | گل سرخ رستوران</title>
+    <meta name="description" content="سفارش آنلاین غذاهای لذیذ ایرانی از چلوکبابی گل سرخ. کباب مرغ و گوشت با کیفیت عالی و قیمت مناسب">
+    <meta name="keywords" content="چلوکبابی گل سرخ, کباب مرغ, کباب گوشت, برنج, غذای ایرانی, سفارش آنلاین غذا, طاقانک">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script type="text/javascript" src="js/java.js"></script>
+</head>
+
+<body>
+    <!-- نوار هدر -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-utensils"></i>
+                    <i class="fas fa-rose" style="color: #e63946; margin-right: 5px;"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>چلوکبابی گل سرخ</h1>
+                    <span class="logo-en">Gol-e Sorkh Restaurant</span>
+                </div>
+            </div>
+
+            <div class="restaurant-info">
+                <div class="info-item">
+                    <i class="fas fa-user-chef"></i>
+                    <span>آشپز: علی کریمی</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <span>همه روزه بجز جمعه‌ها</span>
+                </div>
+            </div>
+
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="fa">فارسی</button>
+                <button class="lang-btn" data-lang="en">English</button>
+            </div>
+
+            <nav class="desktop-nav">
+                <a href="#home" class="nav-link active" data-key="home">خانه</a>
+                <a href="#about" class="nav-link" data-key="about">درباره ما</a>
+                <a href="#menu" class="nav-link" data-key="menu">منو</a>
+                <a href="#order" class="nav-link" data-key="order">سفارش</a>
+                <a href="#notice" class="nav-link" data-key="notice">توجه</a>
+                <a href="#contact" class="nav-link" data-key="contact">تماس</a>
+            </nav>
+
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- منوی موبایل -->
+    <div class="mobile-nav-overlay"></div>
+    <nav class="mobile-nav">
+        <button class="close-mobile-menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <a href="#home" class="nav-link active" data-key="home">خانه</a>
+        <a href="#about" class="nav-link" data-key="about">درباره ما</a>
+        <a href="#menu" class="nav-link" data-key="menu">منو</a>
+        <a href="#order" class="nav-link" data-key="order">سفارش</a>
+        <a href="#notice" class="nav-link" data-key="notice">توجه</a>
+        <a href="#contact" class="nav-link" data-key="contact">تماس</a>
+        <div class="mobile-restaurant-info">
+            <div class="info-item">
+                <i class="fas fa-user-chef"></i>
+                <span>آشپز: علی کریمی</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <span>همه روزه بجز جمعه‌ها</span>
+            </div>
+        </div>
+        <div class="mobile-lang-switcher">
+            <button class="lang-btn active" data-lang="fa">فارسی</button>
+            <button class="lang-btn" data-lang="en">English</button>
+        </div>
+    </nav>
+
+    <!-- محتوای اصلی -->
+    <main>
+        <!-- بخش خانه -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span data-key="restaurant_name">چلوکبابی گل سرخ</span>
+                    </div>
+                    <h2 class="hero-title" data-key="hero_title">طعم اصیل ایرانی با دستپخت علی کریمی</h2>
+                    <p class="hero-subtitle" data-key="hero_subtitle">کباب مرغ و گوشت با کیفیت عالی، برنج خوش عطر، نوشیدنی‌های خنک</p>
+                    <div class="hero-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-key="highlight_fresh">مواد اولیه تازه</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-key="highlight_price">قیمت‌های ثابت و منصفانه</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-key="highlight_delivery">تحویل سریع</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn primary-btn" data-key="view_menu">مشاهده منو</a>
+                        <a href="#order" class="btn secondary-btn" data-key="order_now">سفارش سریع</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- تصویر از دیجی‌کالا (مشابه غذای ایرانی) -->
+                    <img src="img/rs.jpg">
+                    <div class="image-overlay">
+                        <p data-key="image_overlay">چلوکبابی گل سرخ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش درباره ما -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title" data-key="about_title">درباره چلوکبابی گل سرخ</h2>
+                <p class="section-subtitle" data-key="about_subtitle">با بیش از ۱۰ سال تجربه در پخت غذاهای ایرانی</p>
+
+                <div class="about-content">
+                    <div class="about-image">
+                        <!-- تصویر از توریست ایران -->
+                        <img src="img/ashpaz.png" alt="داخل چلوکبابی گل سرخ" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                        <div class="chef-info">
+                            <div class="chef-avatar">
+                                <i class="fas fa-user-chef"></i>
+                            </div>
+                            <div class="chef-details">
+                                <h4 data-key="chef_name">علی کریمی</h4>
+                                <p data-key="chef_title">مالک و آشپز ارشد</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3 data-key="our_story">داستان ما</h3>
+                        <p data-key="story_text">چلوکبابی گل سرخ توسط علی کریمی، آشپز با سابقه و با عشق به غذاهای ایرانی تأسیس شد. ما در این مجموعه بر کیفیت مواد اولیه و طعم اصیل غذاهای ایرانی تأکید داریم. هر روز با انتخاب بهترین مواد، غذایی لذیذ و سالم برای شما آماده می‌کنیم.</p>
+
+                        <div class="restaurant-features">
+                            <div class="feature">
+                                <i class="fas fa-calendar-times"></i>
+                                <h4 data-key="closed_friday">تعطیلی جمعه‌ها</h4>
+                                <p data-key="closed_friday_text">چلوکبابی روزهای جمعه تعطیل می‌باشد</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-box"></i>
+                                <h4 data-key="takeaway_only">فقط بیرون‌بر</h4>
+                                <p data-key="takeaway_only_text">خدمات ما فقط به صورت بیرون‌بر می‌باشد</p>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-tag"></i>
+                                <h4 data-key="fixed_prices">قیمت ثابت</h4>
+                                <p data-key="fixed_prices_text">قیمت‌های ما ثابت و بدون تغییر می‌باشد</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش منو -->
+        <section id="menu" class="section menu-section">
+            <div class="container">
+                <h2 class="section-title" data-key="menu_title">منوی چلوکبابی گل سرخ</h2>
+                <p class="section-subtitle" data-key="menu_subtitle">انتخاب از میان غذاهای لذیذ و با کیفیت</p>
+
+                <div class="menu-categories">
+                    <button class="category-btn active" data-category="all" data-key="all">همه</button>
+                    <button class="category-btn" data-category="main" data-key="main_dishes">غذای اصلی</button>
+                    <button class="category-btn" data-category="drink" data-key="drinks">نوشیدنی</button>
+                    <button class="category-btn" data-category="side" data-key="side_dishes">اضافی</button>
+                </div>
+
+                <div class="menu-items">
+                    <!-- آیتم‌های منو با JavaScript پر می‌شوند -->
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش توجه -->
+        <section id="notice" class="section notice-section">
+            <div class="container">
+                <div class="notice-box">
+                    <div class="notice-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="notice-content">
+                        <h3 data-key="important_notice">توجه مهم</h3>
+                        <div class="notice-items">
+                            <div class="notice-item">
+                                <i class="fas fa-calendar-times"></i>
+                                <div>
+                                    <h4 data-key="notice_friday">روزهای جمعه</h4>
+                                    <p data-key="notice_friday_text">چلوکبابی گل سرخ روزهای جمعه تعطیل می‌باشد. سفارش‌های مربوط به جمعه باید روز قبل انجام شود.</p>
+                                </div>
+                            </div>
+                            <div class="notice-item">
+                                <i class="fas fa-box"></i>
+                                <div>
+                                    <h4 data-key="notice_takeaway">نحوه سرویس</h4>
+                                    <p data-key="notice_takeaway_text">خدمات ما فقط به صورت بیرون‌بر (Takeaway) ارائه می‌شود. امکان صرف غذا در محل وجود ندارد.</p>
+                                </div>
+                            </div>
+                            <div class="notice-item">
+                                <i class="fas fa-tag"></i>
+                                <div>
+                                    <h4 data-key="notice_prices">قیمت‌ها</h4>
+                                    <p data-key="notice_prices_text">تمامی قیمت‌های منو ثابت و مقطوع می‌باشند و بدون اطلاع قبلی تغییر نمی‌کنند.</p>
+                                </div>
+                            </div>
+                            <div class="notice-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4 data-key="notice_delivery">زمان تحویل</h4>
+                                    <p data-key="notice_delivery_text">زمان تحویل سفارش‌ها معمولاً ۴۵-۶۰ دقیقه می‌باشد. در ساعات شلوغی ممکن است این زمان بیشتر شود.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش سفارش -->
+        <section id="order" class="section order-section">
+            <div class="container">
+                <h2 class="section-title" data-key="order_title">سفارش آنلاین</h2>
+                <p class="section-subtitle" data-key="order_subtitle">غذای مورد علاقه خود را انتخاب و سفارش دهید</p>
+
+                <div class="order-container">
+                    <div class="order-form-container">
+                        <h3 data-key="order_form_title">فرم سفارش</h3>
+                        <form id="orderForm" class="order-form">
+                            <div class="form-group">
+                                <label for="name" data-key="full_name">نام و نام خانوادگی *</label>
+                                <input type="text" id="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" data-key="phone_number">شماره تماس *</label>
+                                <input type="tel" id="phone" required placeholder="09XXXXXXXXX">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address" data-key="delivery_address">آدرس تحویل *</label>
+                                <textarea id="address" rows="3" required data-key="address_placeholder" placeholder="آدرس کامل برای تحویل غذا"></textarea>
+                            </div>
+
+                            <!-- انتخاب غذای اصلی -->
+                            <div class="form-group">
+                                <label for="foodItem" data-key="select_food">انتخاب غذا اصلی *</label>
+                                <select id="foodItem" required>
+                                    <option value="" data-key="choose_food_option">-- لطفاً غذا اصلی را انتخاب کنید --</option>
+                                    <!-- گزینه‌ها با JavaScript پر می‌شوند -->
+                                </select>
+                            </div>
+
+                            <!-- انتخاب نوشیدنی -->
+                            <div class="form-group">
+                                <label for="drinkItem" data-key="select_drink">انتخاب نوشیدنی (اختیاری)</label>
+                                <select id="drinkItem">
+                                    <option value="" data-key="no_drink_option">-- بدون نوشیدنی --</option>
+                                    <!-- گزینه‌ها با JavaScript پر می‌شوند -->
+                                </select>
+                            </div>
+
+                            <!-- انتخاب مایعات/ماست -->
+                            <div class="form-group">
+                                <label for="sideItem" data-key="select_side">انتخاب مایعات/ماست (اختیاری)</label>
+                                <select id="sideItem">
+                                    <option value="" data-key="no_side_option">-- بدون مایعات --</option>
+                                    <!-- گزینه‌ها با JavaScript پر می‌شوند -->
+                                </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="notes" data-key="additional_notes">توضیحات اضافی (اختیاری)</label>
+                                <textarea id="notes" rows="2" data-key="notes_placeholder" placeholder="مثال: غذا کم نمک باشد، نوشابه بزرگ همراه غذا"></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agreeTerms" required>
+                                <label for="agreeTerms" data-key="agree_terms">با شرایط و قوانین چلوکبابی گل سرخ موافقم</label>
+                            </div>
+
+                            <button type="submit" class="btn primary-btn" data-key="submit_order">
+                                <i class="fas fa-paper-plane"></i>
+                                ثبت سفارش
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="order-summary">
+                        <h3 data-key="order_summary">خلاصه سفارش</h3>
+                        <div class="summary-content">
+                            <p class="empty-summary" data-key="summary_text">هیچ آیتمی انتخاب نشده است</p>
+                            <div id="orderItems" class="order-items">
+                                <!-- آیتم‌های سفارش با JavaScript پر می‌شوند -->
+                            </div>
+                            <div class="total-price">
+                                <strong data-key="total">مجموع:</strong>
+                                <span id="totalPrice">0</span> <span data-key="currency">تومان</span>
+                            </div>
+                        </div>
+
+                        <div class="delivery-info">
+                            <h4 data-key="delivery_info">اطلاعات تحویل</h4>
+                            <p><i class="fas fa-clock"></i> <span data-key="delivery_time">زمان تحویل: ۴۵-۶۰ دقیقه</span></p>
+                            <p><i class="fas fa-money-bill-wave"></i> <span data-key="payment_method">پرداخت فقط در محل</span></p>
+                            <p><i class="fas fa-phone"></i> <span data-key="support_phone">پشتیبانی: 09139812028</span></p>
+                            <p><i class="fas fa-calendar-times"></i> <span data-key="closed_friday">جمعه‌ها تعطیل</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش تماس -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title" data-key="contact_title">تماس با ما</h2>
+                <p class="section-subtitle" data-key="contact_subtitle">برای سفارش و اطلاعات بیشتر با ما در ارتباط باشید</p>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4 data-key="address_title">آدرس چلوکبابی</h4>
+                                <p>طاقانک، خیابان امام، جنب گلستان ۳۵</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4 data-key="phone_title">تلفن سفارشات</h4>
+                                <p>09139812028</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4 data-key="hours_title">ساعات کاری</h4>
+                                <p data-key="hours_text">شنبه تا پنجشنبه: ۱۱:۰۰ تا ۲۲:۰۰</p>
+                                <p class="closed" data-key="friday_closed">جمعه: تعطیل</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <h4 data-key="service_info">نحوه خدمات</h4>
+                                <p data-key="service_text">فقط به صورت بیرون‌بر - تحویل در محل</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4 data-key="follow_us">ما را دنبال کنید</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon telegram">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                                <a href="tel:09121234567" class="social-icon whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-map">
+                        <div class="map-placeholder">
+                            <!-- آیکون نقشه با تم ایرانی -->
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h4 data-key="location_title">موقعیت ما</h4>
+                            <p data-key="location_text">طاقانک، خیابان امام</p>
+                            <p data-key="location_detail">جنب گلستان ۳۵</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ناوبری پایین صفحه (Bottom Navigation) -->
+    <nav class="bottom-nav">
+        <a href="#home" class="bottom-nav-link active">
+            <i class="fas fa-home"></i>
+            <span data-key="home">خانه</span>
+        </a>
+        <a href="#menu" class="bottom-nav-link">
+            <i class="fas fa-utensils"></i>
+            <span data-key="menu">منو</span>
+        </a>
+        <a href="#order" class="bottom-nav-link">
+            <i class="fas fa-shopping-cart"></i>
+            <span data-key="order">سفارش</span>
+        </a>
+        <a href="#notice" class="bottom-nav-link">
+            <i class="fas fa-exclamation-circle"></i>
+            <span data-key="notice">توجه</span>
+        </a>
+    </nav>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">
+                        <i class="fas fa-utensils"></i>
+                        <i class="fas fa-rose"></i>
+                    </div>
+                    <div>
+                        <h3>چلوکبابی گل سرخ</h3>
+                        <p data-key="footer_slogan">طعمی که ماندگار می‌شود</p>
+                        <p class="chef-credit" data-key="chef_credit">آشپز: علی کریمی</p>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 data-key="quick_links">لینک‌های سریع</h4>
+                    <a href="#home" data-key="home">خانه</a>
+                    <a href="#about" data-key="about">درباره ما</a>
+                    <a href="#menu" data-key="menu">منو</a>
+                    <a href="#notice" data-key="notice">توجه</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 data-key="contact_info">اطلاعات تماس</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> طاقانک، خیابان امام، جنب گلستان ۳۵</p>
+                    <p><i class="fas fa-phone"></i> 09139812028</p>
+                    <p><i class="fas fa-clock"></i> <span data-key="working_days">شنبه-پنجشنبه: ۱۱-۲۲</span></p>
+                    <p><i class="fas fa-times-circle"></i> <span data-key="friday_off">جمعه: تعطیل</span></p>
+                </div>
+
+                <div class="footer-notice">
+                    <h4 data-key="important_notice">توجه</h4>
+                    <p data-key="notice_takeaway_footer">سرویس فقط به صورت بیرون‌بر</p>
+                    <p data-key="notice_prices_footer">قیمت‌ها ثابت و مقطوع</p>
+                    <p data-key="notice_friday_footer">جمعه‌ها تعطیل</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-key="copyright">© 1404 چلوکبابی گل سرخ. تمامی حقوق محفوظ است.</p>
+                <div class="footer-actions">
+                    <div class="footer-lang-switcher">
+                        <button class="lang-btn active" data-lang="fa">فارسی</button>
+                        <button class="lang-btn" data-lang="en">English</button>
+                    </div>
+                    <a href="#order" class="btn small-btn" data-key="order_now_footer">
+                        <i class="fas fa-shopping-cart"></i> سفارش آنلاین
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- اعلان سفارش موفق -->
+    <div id="orderSuccess" class="notification">
+        <div class="notification-content">
+            <i class="fas fa-check-circle"></i>
+            <div class="notification-text">
+                <p class="notification-title" data-key="order_success">سفارش شما با موفقیت ثبت شد!</p>
+                <p class="notification-desc" data-key="order_success_desc">به زودی با شما تماس می‌گیریم</p>
+            </div>
+            <button class="close-notification"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

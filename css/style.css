@@ -415,7 +415,7 @@ body.en .section-subtitle {
     color: var(--text-light);
 }
 
-.features {
+.restaurant-features {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
@@ -706,7 +706,7 @@ body.en .section-subtitle {
 }
 
 
-/* بخش تماس */
+/* بخش  */
 
 .contact-content {
     display: flex;
